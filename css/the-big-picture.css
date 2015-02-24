@@ -1,0 +1,80 @@
+/*!
+ * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+.full {
+  background: url(../images/background-full.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1, h2, ul, p
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+li
+{
+	list-style: none;
+	display: inline;
+	margin-right: 10px;
+}
+
+img.bordered
+{
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.lefty
+{
+	float: left;
+	margin-right: 15px;
+}
+
+/* Overriding font-awesome styles - thanks to tscholze.github.io */
+
+.fa
+{
+	color: #888888;
+}
+
+.fa:hover
+{
+	color: #FFFFFF;
+}
+
+/* Override bootstrap styles */
+div.row
+{
+	margin-bottom: 50px;
+}
+div.row h2
+{
+	margin-bottom: 20px;
+}
+.thumbnail
+{
+	background-color: rgba(255, 255, 255, 0.6);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.thumbnail .caption
+{
+	height: 232px;
+}
+a.thumbnail:hover, a.thumbnail:active, a.thumbnail:focus
+{
+	text-decoration: none;
+	border: 1px solid #FFF;
+	background-color: rgba(255, 255, 255, 0.8);
+}
